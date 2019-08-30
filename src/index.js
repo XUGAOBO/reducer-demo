@@ -1,7 +1,13 @@
+/*
+ * @Description: 简版状态管理
+ * @Author: gaobo xu
+ * @Date: 2019-08-12 16:49:38
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './reducer-demo';
+import 'antd/dist/antd.css';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
